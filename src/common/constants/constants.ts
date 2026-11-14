@@ -1,6 +1,7 @@
 import type {DiscoverSortBy} from '../../features/movies/api/moviesApi';
+import fallbackPosterUrl from '../../../assets/no-poster.svg';
 
-export const fallbackPoster = '../assets/no-poster.svg';
+export const fallbackPoster = fallbackPosterUrl;
 export const imageBaseUrl = 'https://image.tmdb.org/t/p/w500';
 export const imageBaseUrlActor = 'https://image.tmdb.org/t/p/w185';
 export const imageBaseUrlOriginal = 'https://image.tmdb.org/t/p/original';

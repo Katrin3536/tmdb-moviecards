@@ -7,6 +7,7 @@ import IconButton from '@mui/material/IconButton';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import {Link} from 'react-router';
+import logoUrl from '../../../../assets/blue_long_movie.svg';
 import {changeThemeModeAC, selectThemeMode} from '../../../app/app-slice';
 import {useAppDispatch, useAppSelector} from '../../hooks';
 
@@ -64,7 +65,7 @@ export const Header = () => {
                     >
                         <Box
                             component="img"
-                            src="../../../assets/blue_long_movie.svg"
+                            src={logoUrl}
                             alt="TMDB"
                             sx={{
                                 display: 'block',
